@@ -1,8 +1,14 @@
 langchain==0.1.9
 langchain-groq==0.0.1
+langchain-openai
+langchain-anthropic
 SpeechRecognition==3.8.1
 PySide6
 PyAudio==0.2.14
 keyboard==0.13.5
 pyowm==3.3.0
 youtube-search==2.1.2
+beautifulsoup4
+pyperclip
+requests
+pyyaml
