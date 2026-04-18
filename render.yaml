@@ -1,0 +1,14 @@
+services:
+  - name: maxx-ai
+    type: web_service
+    region: oregon
+    repo: https://github.com/Carlymaxx/maxx-ai
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: GROQ_API_KEY
+        value: ""
+      - key: NODE_VERSION
+        value: "20"
+    plan: free
